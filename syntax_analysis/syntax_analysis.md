@@ -139,8 +139,29 @@ N ::= 's':J
 ```
 
 Implement a parser of JSON. Is the grammar suitable for top-down parsing? 
-There is some skeleton code given in the project stub. Your task is to 
-complete the missing parts and make sure it passes the test cases.
+
+There is some skeleton code given in the project stub `JsonParser.hs`.
+
+Note that we use the following Haskell data type to represent the abstract syntax of JSON language. 
+
+```hs
+import Data.Map 
+
+data Json = 
+    IntLit Int | 
+    StrLit String | 
+    JsonList [Json] |
+    JsonObject (Map String Json)
+    deriving (Show, Eq)
+```
+
+Where `Map` (not to be confused with `map`) is a data structure defined in the library `containers`. It defines a mapping from key to values, (like Pythong dictionary). In the above we use `Map String Json` to represent JSON objects like `{"k1": 1, "k2": {}}`. 
+For detailed operations defined over `Map`, you may refer to 
+```url
+https://hackage.haskell.org/package/containers-0.4.0.0/docs/Data-Map.html
+```
+Your task is to complete the missing parts and make sure it passes the test cases.
+
 
 
 ## Exercise 5
