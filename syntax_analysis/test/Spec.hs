@@ -9,10 +9,10 @@ main = hspec spec
 
 spec :: Spec
 spec = do
-  describe "SUTD.Compiler.MathExpLexerWithRegexSpec" SUTD.Compiler.MathExpLexerWithRegexSpec.spec
-  describe "SUTD.Compiler.MathExpParserSpec" SUTD.Compiler.MathExpParserSpec.spec
-  describe "SUTD.Compiler.JsonLexerWithRegexSpec" SUTD.Compiler.JsonLexerWithRegexSpec.spec
-  describe "SUTD.Compiler.JsonParserSpec" SUTD.Compiler.JsonParserSpec.spec
+    describe "SUTD.Compiler.MathExpLexerWithRegexSpec" SUTD.Compiler.MathExpLexerWithRegexSpec.spec
+    describe "SUTD.Compiler.MathExpParserSpec" SUTD.Compiler.MathExpParserSpec.spec
+    describe "SUTD.Compiler.JsonLexerWithRegexSpec" SUTD.Compiler.JsonLexerWithRegexSpec.spec
+    describe "SUTD.Compiler.JsonParserSpec" SUTD.Compiler.JsonParserSpec.spec
 
 -- to run test
 -- 1) cabal test; or
