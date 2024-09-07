@@ -5,7 +5,7 @@ main = hspec spec
 
 spec :: Spec
 spec = do
-  describe "SUTD.Compiler.BigStepEvalSpec" SUTD.Compiler.BigStepEvalSpec.spec
+    describe "SUTD.Compiler.BigStepEvalSpec" SUTD.Compiler.BigStepEvalSpec.spec
 
 -- to run test
 -- 1) cabal test; or
