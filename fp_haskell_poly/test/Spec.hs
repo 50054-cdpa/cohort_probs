@@ -9,10 +9,10 @@ main = hspec spec
 
 spec :: Spec
 spec = do
-  describe "Ex1Spec" Ex1Spec.spec
-  describe "Ex2Spec" Ex2Spec.spec
-  describe "Ex3Spec" Ex3Spec.spec
-  describe "Ex4Spec" Ex4Spec.spec
+    describe "Ex1Spec" Ex1Spec.spec
+    describe "Ex2Spec" Ex2Spec.spec
+    describe "Ex3Spec" Ex3Spec.spec
+    describe "Ex4Spec" Ex4Spec.spec
 
 -- to run test
 -- 1) cabal test; or
