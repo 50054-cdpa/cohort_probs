@@ -1,4 +1,4 @@
-% Instroduction to functional programming
+% Introduction to functional programming
 
 # Learning Outcomes
 By the end of this class, you should be able to 
