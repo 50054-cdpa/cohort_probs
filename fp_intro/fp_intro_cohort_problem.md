@@ -59,6 +59,7 @@ Assuming function application has a higher precedence level than lambda
 abstraction, i.e. $\lambda x.t_1\ t_2$ is always parsed as $\lambda x.(t_1\ t_2)$, function application
 is left associative, i.e. $t_1\ t_2\ t_3$ is always parsed as $(t_1\ t_2)\ t_3$ , compute the
 free variables from the following lambda terms.
+
 * $\lambda x.x\ y$
 * $\lambda x.x\ (\lambda y.x\ y)\ y$
 * $\lambda x.(\lambda y.(\lambda z.x\ z\ z)\ y)\ y$
@@ -72,7 +73,7 @@ $$
 \end{array}
 $$
 
-where  $t \longrightarrow t' $ denotes one evaluation step. $[t_2/x]$
+where  $t \longrightarrow t'$ denotes one evaluation step. $[t_2/x]$
 refers to a substitution. $[t_2/x]t_1$ denotes the application of the
 substitution $[t_2/x]$ to $t_1$, Informally speaking it means we
 replace every occurance of the formal argument $x$ in $t_1$ with $t_2$. 
@@ -103,6 +104,7 @@ is not satified, we need to rename the lambda bound variables that are clashing.
 # Exercise 3
 
 Apply the substitution $[(y\ \lambda x.x)/x]$ to the following lambda terms, high-light the variables in name clashing or free variables being mis-captured if there exists; otherwise, derive the result.
+
 * $\lambda y.y\ x$
 * $\lambda z.x\ z$
 * $(\lambda z.z)\ y$
