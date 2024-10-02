@@ -78,7 +78,7 @@ insert :: Ord a => a -- ^ the key to be inserted
 
 # Exercise 4
 
-Define a `subtree` function which search for the sub-tree rooted at the given key in a BST.
+Define a `subtree` function which searches for the sub-tree rooted at the given key in a BST.
 
 
 ```hs
