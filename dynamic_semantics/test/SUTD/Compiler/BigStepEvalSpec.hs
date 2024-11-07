@@ -38,5 +38,5 @@ spec = do
             fac   = FixTerm (LambdaTerm varf (LambdaTerm varx ifelse)) -- fix \f. \x. if == 0 then 1 else x * (f (x - 1))
             input = AppTerm fac three
             result = runStateT (eval input) st
-            expected = Ok (ConstValue (IntConst 6), StateInfo 16)
+            expected = Ok (ConstValue (IntConst 6), StateInfo 4)
         in result `shouldBe` expected
