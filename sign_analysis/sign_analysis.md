@@ -69,12 +69,12 @@ In the notes, we formulate the sign analysis by defining a abstract domain
 
 ```mermaid
 graph
-    A["⊤"]---B[-]
-    A---C[0]
-    A---D[+]
+    A["⊤"]---B["\-"]
+    A---C["0"]
+    A---D["\+"]
     B---E
     C---E
-    D---E[⊥]
+    D---E["⊥"]
 ```
 
 we argue that the above sign abstract values forms a complete lattice.
