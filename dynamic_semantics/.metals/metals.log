@@ -1,0 +1,28 @@
+2024.11.07 20:26:31 INFO  Started: Metals version 1.4.0 in folders '/Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics' for client Visual Studio Code 1.95.0.[0m
+2024.11.07 20:26:31 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.11.07 20:26:31 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.11.07 20:26:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Nov 07, 2024 8:26:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Nov 07, 2024 8:26:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.11.07 20:26:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.11.07 20:26:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.11.07 20:26:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.11.07 20:27:33 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.11.07 20:27:36 INFO  Shutting down server[0m
+2024.11.07 20:27:36 INFO  shutting down Metals[0m
+2024.11.07 20:27:36 INFO  Exiting server[0m
+2024.11.07 20:28:25 INFO  Started: Metals version 1.4.0 in folders '/Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics' for client Visual Studio Code 1.95.0.
+2024.11.07 20:28:25 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.07 20:28:25 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.07 20:28:26 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.07 20:28:26 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 07, 2024 8:28:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.07 20:28:26 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.08 07:19:55 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.08 08:23:26 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/dynamic_semantics/src/main/scala/sutd/compiler/BigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.08 08:23:52 INFO  Shutting down server
+2024.11.08 08:23:52 INFO  shutting down Metals
+2024.11.08 08:23:52 INFO  Exiting server

@@ -1,0 +1,2 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/luzm/git/compilerdesign/cohort_probs_scala/syntax_analysis/project/target/scala-2.12/sbt-1.0/classes.bak
+[debug] Removing the temporary directory used for backing up class files: /Users/luzm/git/compilerdesign/cohort_probs_scala/syntax_analysis/project/target/scala-2.12/sbt-1.0/classes.bak

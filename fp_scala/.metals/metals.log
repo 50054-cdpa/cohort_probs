@@ -1,0 +1,55 @@
+2024.08.30 08:39:02 INFO  Started: Metals version 1.3.5 in folders '/Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7731c04e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@778c43c4]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7731c04e]
+2024.08.30 08:39:02 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.30 08:40:12 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:19:35 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:19:35 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:19:38 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:19:50 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:39:44 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:39:45 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:39:45 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:39:45 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:39:47 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:43:22 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:43:22 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:48:42 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:48:42 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:48:44 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:48:44 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:48:46 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 09:48:46 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:29 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:29 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:30 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:30 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:32 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:32 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:32 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:32 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:32 WARN  Could not find semantic tokens for: file:///Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex5.scala
+2024.08.30 10:00:34 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:34 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex6.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:34 WARN  Could not find semantic tokens for: file:///Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex6.scala
+2024.08.30 10:00:34 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex6.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:34 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex7.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:34 WARN  Could not find semantic tokens for: file:///Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex7.scala
+2024.08.30 10:00:35 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex7.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:35 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 10:00:35 WARN  Could not find semantic tokens for: file:///Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex5.scala
+2024.08.30 10:00:39 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 14:07:33 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 14:26:56 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/test/scala/sutd/compiler/TestEx3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 14:26:56 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex6.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 14:26:56 WARN  Could not find semantic tokens for: file:///Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex6.scala
+2024.08.30 14:26:58 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex6.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 14:26:58 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex7.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 14:26:58 WARN  Could not find semantic tokens for: file:///Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex7.scala
+2024.08.30 14:27:25 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/fp_scala/src/main/scala/sutd/compiler/Ex7.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.30 16:04:38 INFO  Shutting down server
+2024.08.30 16:04:38 INFO  shutting down Metals
+2024.08.30 16:04:38 INFO  Exiting server

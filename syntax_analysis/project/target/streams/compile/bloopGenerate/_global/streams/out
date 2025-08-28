@@ -1,0 +1,4 @@
+[debug] [syntax_analysis-build] Classpath dependencies List()
+[debug] [syntax_analysis-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'syntax_analysis-build' to '/Users/luzm/git/compilerdesign/cohort_probs_scala/syntax_analysis/project/.bloop/syntax_analysis-build.json'
+[success] Generated .bloop/syntax_analysis-build.json

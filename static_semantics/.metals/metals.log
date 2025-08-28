@@ -1,0 +1,73 @@
+2024.09.05 10:00:05 INFO  Started: Metals version 1.3.5 in folders '/Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@10022ba6]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6c15264d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@10022ba6]
+2024.09.05 10:00:05 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Sep 05, 2024 10:00:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.09.05 10:00:11 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:15 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:15 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:15 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:18 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:18 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:18 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:19 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:19 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:20 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:20 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:20 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:20 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:21 WARN  no build target for: /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala
+2024.09.05 10:00:21 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:21 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:26 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/main/scala/sutd/compiler/TypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:26 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:27 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:27 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:29 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:29 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:29 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:30 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:30 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:31 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:34 WARN  no build target for: /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala
+2024.09.05 10:00:34 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:34 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestBigStepEval.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:35 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:36 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:38 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:38 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:39 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:39 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:41 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:41 WARN  no build target for: /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala
+2024.09.05 10:00:41 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:41 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:42 WARN  no build target for: /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala
+2024.09.05 10:00:42 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 05, 2024 10:00:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.09.05 10:00:45 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 10:00:53 INFO  Shutting down server
+2024.09.05 10:00:53 INFO  shutting down Metals
+2024.09.05 10:00:53 INFO  Exiting server
+2024.09.05 12:46:46 INFO  Started: Metals version 1.3.5 in folders '/Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5478a06e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3e6b63d3]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5478a06e]
+2024.09.05 12:46:46 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.05 12:46:47 INFO  no build target found for /Users/luzm/git/compilerdesign/cohort_probs_scala/static_semantics/src/test/scala/sutd/compiler/TestTypeCheck.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 05, 2024 12:46:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 05, 2024 12:46:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.09.05 12:46:59 INFO  Shutting down server
+2024.09.05 12:46:59 INFO  shutting down Metals
+2024.09.05 12:46:59 INFO  Exiting server
