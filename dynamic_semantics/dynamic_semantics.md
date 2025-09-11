@@ -145,20 +145,20 @@ Your task is to complete the following set of big step operational semantics rul
 $$
 \begin{array}{rc}
 {\tt (lcbFix)} & \begin{array}{c}
-              t \Downarrow \lambda f.t' \ \ \ \lbrack (fix\ \lambda f.t')/f \rbrack t' \Downarrow v
-              \\ \hline
+              t \Downarrow \lambda f.t' \ \ \ \lbrack (fix\ \lambda f.t')/f \rbrack t' \Downarrow v \\ 
+              \hline
               fix\ t \Downarrow v
               \end{array} \\ \\
 {\tt (lcbApp)} & \begin{array}{c}
-              t_1 \Downarrow \lambda x.t_3 \ \ \  \lbrack t_2/x\rbrack t_3 \Downarrow v
-              \\ \hline 
+              t_1 \Downarrow \lambda x.t_3 \ \ \  \lbrack t_2/x\rbrack t_3 \Downarrow v \\ 
+              \hline 
               t_1\ t_2 \Downarrow v
               \end{array} \\ \\
 {\tt (lcbIf1)} & \begin{array}{c}
-                 t_1 \Downarrow true \ \ \ t_2 \Downarrow v
-                 \\ \hline
+                 t_1 \Downarrow true \ \ \ t_2 \Downarrow v \\ 
+                 \hline
                  if\ t_1\ then\ t_2\ else\ t_3 \Downarrow v
-                 \end{array} \\ \\
+                 \end{array}
 \end{array}
 $$
 
