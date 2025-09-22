@@ -106,7 +106,7 @@ $$
 \end{array}
 $$
 
-where  $t \longrightarrow t' $ denotes one evaluation step. $[t_2/x]$
+where  $t \longrightarrow t'$ denotes one evaluation step. $[t_2/x]$
 refers to a substitution. $[t_2/x]t_1$ denotes the application of the
 substitution $[t_2/x]$ to $t_1$, Informally speaking it means we
 replace every occurance of the formal argument $x$ in $t_1$ with $t_2$. 
@@ -144,10 +144,10 @@ Apply the substitution $[(y\ \lambda x.x)/x]$ to the following lambda terms, hig
 
 Answer:
 
-* $ [(y\ \lambda x.x)/x](\lambda y.y\ x) = [(y\ \lambda x.x)/x](\lambda y.(y\ x))$.
+* $[(y\ \lambda x.x)/x](\lambda y.y\ x) = [(y\ \lambda x.x)/x](\lambda y.(y\ x))$.
 Clash! Because lambda bound variable $y \in fv(y\ \lambda x.x)$.
 
-* $ [(y\ \lambda x.x)/x](\lambda z.x\ z)  = [(y\ \lambda x.x)/x](\lambda z.(x\ z)) = \lambda z. [(y\ \lambda x.x)/x](x\ z) = \lambda z. ((y\ \lambda x.x)\ z) $
+* $[(y\ \lambda x.x)/x](\lambda z.x\ z)  = [(y\ \lambda x.x)/x](\lambda z.(x\ z)) = \lambda z. [(y\ \lambda x.x)/x](x\ z) = \lambda z. ((y\ \lambda x.x)\ z)$
 
 * $[(y\ \lambda x.x)/x] ((\lambda z.z)\ y) = [(y\ \lambda x.x)/x] (\lambda z.z)\ [(y\ \lambda x.x)/x]y = (\lambda z.([(y\ \lambda x.x)/x]z))\ y = (\lambda z.z)\ y$
 
@@ -176,7 +176,7 @@ Answer
 * $(\lambda x.x)\ (\lambda y.y)\ (\lambda z.z) = ((\lambda x.x)\ (\lambda y.y))\ (\lambda z.z)$
   * AOR 
   
-    $$
+```math
     \begin{array}{ll}
     \underline{((\lambda x.x)\ (\lambda y.y))} & \longrightarrow_{\beta} \\ 
     ([\lambda y.y/x]\ x)\ (\lambda z. z) & \longrightarrow_{subs} \\ 
@@ -184,12 +184,13 @@ Answer
     [\lambda z.z/y] y & \longrightarrow_{subs} \\ 
     \lambda z.z
     \end{array}
-    $$
+```
+    
   * NOR - same as AOR
 * $\lambda x.(\lambda x.x\ x\ y)\ (\lambda z.z\ x) = \lambda x.((\lambda x.((x\ x)\ y))\ (\lambda z.(z\ x)))$
   * AOR
   
-  $$
+```math
   \begin{array}{ll}
   \lambda x.\underline{((\lambda x.((x\ x)\ y))\ (\lambda z.(z\ x)))} & \longrightarrow_\beta \\
   \lambda x.([(\lambda z.(z\ x))/x]((x\ x)\ y)) & \longrightarrow_{subs} \\ 
@@ -199,35 +200,38 @@ Answer
   \lambda x.(([x/z](z\ x))\ y) & \longrightarrow_{subs} \\ 
   \lambda x.((x\ x)\ y)
   \end{array}
-  $$
+```
+  
   * NOR - same as AOR
 * $(\lambda x.x\ x)\ (\lambda x.x\ x) = (\lambda x.(x\ x))\ (\lambda x.(x\ x))$
   * AOR - diverges
     
-    $$
+```math
     \begin{array}{ll}
     \underline{(\lambda x.(x\ x))\ (\lambda x.(x\ x))}&  \longrightarrow_\beta \\ 
     [\lambda x.(x\ x)/x](x\ x) & \longrightarrow_{subs} \\ 
     \underline{(\lambda x.(x\ x))\ (\lambda x.(x\ x))}&  \longrightarrow_\beta \\ 
     ...
      \end{array}
-    $$
+```
+
   * NOR - same as AOR
 
 * $(\lambda y.\lambda x.y)\ (\lambda z.z)\ ((\lambda x.x\ x)\ (\lambda x.x\ x))= ((\lambda y.(\lambda x.y))\ (\lambda z.z))\ ((\lambda x.(x\ x))\ (\lambda x.(x\ x)))$
   * AOR - diverges
    
-   $$
+```math
     \begin{array}{ll}
     \underline{((\lambda y.(\lambda x.y))\ (\lambda z.z))}\ ((\lambda x.(x\ x))\ (\lambda x.(x\ x))) & \longrightarrow_\beta \\ 
     ([\lambda z.z/y](\lambda x.y))\ ((\lambda x.(x\ x))\ (\lambda x.(x\ x))) & \longrightarrow_{subs} \\ 
     (\lambda x.(\lambda z.z))\ \underline{((\lambda x.(x\ x))\ (\lambda x.(x\ x)))} & \longrightarrow_{\beta} \\ 
     ...
     \end{array}
-   $$
+```
+
    * NOR - terminates
 
-   $$
+```math
     \begin{array}{ll}
     \underline{((\lambda y.(\lambda x.y))\ (\lambda z.z))}\ ((\lambda x.(x\ x))\ (\lambda x.(x\ x))) & \longrightarrow_\beta \\ 
     ([\lambda z.z/y](\lambda x.y))\ ((\lambda x.(x\ x))\ (\lambda x.(x\ x))) & \longrightarrow_{subs} \\ 
@@ -235,7 +239,7 @@ Answer
     [((\lambda x.(x\ x))\ (\lambda x.(x\ x)))/x](\lambda z.z) & \longrightarrow_{subs} \\ 
     \lambda z.z
     \end{array}
-  $$
+```
 
 
 ## Lambda Calculus Extended 
