@@ -71,6 +71,7 @@ free variables from the following lambda terms.
 Answer:
 * $fv(\lambda x.x\ y) = fv(\lambda x.(x\ y)) = fv(x\ y) - \{x\} = \{x, y\} - \{x\} = \{y\}$
 * 
+
 $$
 \begin{array}{ll}
 fv(\lambda x.x\ (\lambda y.x\ y)\ y) & = \\ 
@@ -83,7 +84,9 @@ fv(x\ (\lambda y.x\ y)\ y) - \{x\} & = \\
  \{y\}
  \end{array}
 $$
+
 * 
+
 $$
 \begin{array} {l}
 fv(\lambda x.(\lambda y.(\lambda z.x\ z\ z)\ y)\ y) = \\
@@ -329,24 +332,24 @@ $$
 Evaluate the following lambda term
 
 $$
-let\ fac = \mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x*(F\ (x-1)))\ in (fac\ 3) 
+let\ fac = \mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x* ( F \ (x-1)))\ in (fac\ 3) 
 $$
 
 Answer: incomplete
 
-$$
+```math
 \begin{array}{ll}
-let\ fac = \mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x*(F\ (x-1)))\ in (fac\ 3) & \longrightarrow_{\tt (Let)} \\
-[\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x*(F\ (x-1)))/fac](fac\ 3)  & \longrightarrow_{subs} \\ 
-\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x*(F\ (x-1)))\ 3 & \longrightarrow_{\tt (unfold)} \\ 
-\underline{\lambda x. if\ x == 0\ then\ 1\ else\ (x*((\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x*(F\ (x-1))))\ (x-1)))\ 3} & \longrightarrow_\beta \\
-[3/x](if\ x == 0\ then\ 1\ else\ (x*((\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x*(F\ (x-1))))\ (x-1)))) & \longrightarrow_{subs+\alpha} \\ 
+let\ fac = \mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x * ( F \  (x-1)))\ in (fac\ 3) & \longrightarrow_{\tt (Let)} \\
+[\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x * ( F \  (x-1)))/fac](fac\ 3)  & \longrightarrow_{subs} \\ 
+\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x * ( F \  (x-1)))\ 3 & \longrightarrow_{\tt (unfold)} \\ 
+\underline{\lambda x. if\ x == 0\ then\ 1\ else\ (x*((\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x * ( F \  (x-1))))\ (x-1)))\ 3} & \longrightarrow_\beta \\
+[3/x](if\ x == 0\ then\ 1\ else\ (x*((\mu F.\lambda x. if\ x == 0\ then\ 1\ else\ (x * ( F \  (x-1))))\ (x-1)))) & \longrightarrow_{subs+\alpha} \\ 
 (if\ 3 == 0\ then\ 1\ else\ (3*((\mu F.\lambda y. if\ y == 0\ then\ 1\ else\ (y*(F\ (y-1))))\ (3-1)))) & \longrightarrow_{\tt (IfI, OpC, IfF)} \\ 
 (3*((\mu F.\lambda y. if\ y == 0\ then\ 1\ else\ (y*(F\ (y-1))))\ 2)) & \longrightarrow_{\tt (OpI2, unfold)} \\
 (3*\underline{(\lambda y.if\ y == 0\ then\ 1\ else\ (y*((\mu F.\lambda y. if\ y == 0\ then\ 1\ else\ (y*(F\ (y-1))))\ (y-1)))\ 2)}) & \longrightarrow_\beta \\ 
 ...
 \end{array}
-$$
+```
 
 # Exercise 6
 
@@ -362,7 +365,7 @@ $$
 \end{array}
 $$
 
-We replace the ${\tt (\beta\ reduction)} $ and ${\tt (NOR)} $ rules the following evaluation rules
+We replace the ${\tt (\beta\ reduction)}$ and ${\tt (NOR)}$ rules the following evaluation rules
 
 $$
 \begin{array}{rl}
