@@ -178,7 +178,7 @@ Answer
   
 ```math
     \begin{array}{ll}
-    \underline{((\lambda x.x)\ (\lambda y.y))} & \longrightarrow_{\beta} \\ 
+    \underline{((\lambda x.x)\ (\lambda y.y))} \ (\lambda z.z) & \longrightarrow_{\beta} \\ 
     ([\lambda y.y/x]\ x)\ (\lambda z. z) & \longrightarrow_{subs} \\ 
     \underline{(\lambda y.y)\ (\lambda z.z)} & \longrightarrow_{\beta} \\ 
     [\lambda z.z/y] y & \longrightarrow_{subs} \\ 
@@ -309,7 +309,6 @@ $$
 
 and substitution extended
 
-
 $$
 \begin{array}{rcll}
  \lbrack t_1 / x \rbrack c & = & c \\ 
@@ -375,7 +374,7 @@ $$
 {\tt (App2)} & \begin{array}{c}
                 t_2 \longrightarrow t_2' \\ 
                 \hline
-                v_1\ t_2 \longrightarrow v_1\ t_2
+                v_1\ t_2 \longrightarrow v_1\ t_2'
                 \end{array}  \\ \\
 {\tt (\beta\ reduction)} & (\lambda x.t_1)\ v_2 \longrightarrow [v_2/x] t_1
 \end{array}
