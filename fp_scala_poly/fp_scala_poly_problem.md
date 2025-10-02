@@ -120,10 +120,10 @@ import BST.*
 val b = Node(5, Node(3, Node(1, Empty, Empty), Node(4,Empty, Empty)), Node(7, Empty, Empty))
 
 assert(bstFoldable.foldLeft(b)("")(x:String, y:Int) => x + " " + y.toString)  == " 5 3 1 4 7")
-// C-L-R in order
+// C-L-R pre order
 assert(bstFoldable.foldRight(b)("")(x:Int, y:String) => x.toString + " " + y)  == "5 7 3 4 1 ")
 
-// C-R-L order
+// C-R-L mirrored pre-order
 ```
 
 
