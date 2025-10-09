@@ -75,7 +75,7 @@ For more test cases, refer to the project test folder
 
 ## Exercise 5
 
-Continue from the previouse quesiton, 
+Continue from the previouse question, 
 
 ```scala
 type MkM = [S] =>> [A] =>> Mk[S,A]
