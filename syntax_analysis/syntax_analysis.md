@@ -69,6 +69,7 @@ One possible solution is to use `LL(1)`. A grammar is said to be in `LL(1)` if i
 A top-down predictive parsing table could be constructed by computing the $null$, $first$ and $follow$ sets.
 
 $null(\overline{\sigma},G)$ checks whether the language denoted by $\overline{\sigma}$ contains the empty sequence.
+
 $$
 \begin{array}{rcl}
 null(t,G) & = & false \\ 
