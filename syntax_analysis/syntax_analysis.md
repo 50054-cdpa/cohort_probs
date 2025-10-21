@@ -24,16 +24,24 @@ NS ::= N,NS | N
 N ::= 's':J
 ```
 
-The terminal symbols are +, * and i.
+The terminal symbols are [, ], {, }, comma, : , ', +, * and i.
 
 We define the following algebraic datatype to model the lexical tokens.
 
 ```scala
 enum LToken { // lexical Tokens
     case IntTok(v: Int)
-    case PlusTok
-    case AsterixTok
+    case StrTok(s: String)
+    case SQuote
+    case LBracket
+    case RBracket
+    case LBrace
+    case RBrace
+    case Colon
+    case Comma
+    case WhiteSpace
 }
+
 ```
 
 Following the same idea mentioned in the lecture note, we make use of the Scala regex library to implement a lexer.
@@ -42,11 +50,16 @@ Note that
 
 ```scala
 val integer = raw"(\d+)(.*)".r
-val plus = raw"(\+)(.*)".r
-val asterix = raw"(\*)(.*)".r
+val string = raw"([^']*)(.*)".r
+val squote = raw"(')(.*)".r
+val lbracket = raw"(\[)(.*)".r
+val rbracket = raw"(\])(.*)".r
+val lbrace = raw"(\{)(.*)".r
+val rbrace = raw"(\})(.*)".r
+val colon = raw"(:)(.*)".r
+val comma = raw"(,)(.*)".r
 ```
 There is some skeleton code given in the project stub. Your task is to complete the missing parts and make sure it passes the test cases.
-
 
 
 
