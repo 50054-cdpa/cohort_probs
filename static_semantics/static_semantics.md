@@ -61,7 +61,7 @@ fix \g:int->int->int.\x:int.\y:int.if x < y then g x (y-x) else (if x == y then 
 
 For simplicity, we write `\x:T.e` to denote $\lambda x:T.e$.
 
-1. Apply the type checking algorithm to check the above program has type `int`
+1. Apply the type checking algorithm to check the above program has type `int -> int -> int`
 
 
 # Exercise 3
